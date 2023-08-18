@@ -45,11 +45,16 @@ String dateString = formatter.format(currentTime);
 if(dateString.equals(<span class="string">"<i class="birthday-str"></i>"</span>)){</br>
   u.age ++;</br>
 }</br>
+int budget = 0;
 <span class="comments">// Our blessing will be with you simultaneously.</span>
 <span class="keyword">new</span> Thread (){
   @Override </br>
   <span class="comments">// Forever and ever. I wish</span>
   while(true){
+	if(budget == 0){
+		System.out.println("Birthday party == bullshit");
+		break;
+	}
     <span class="comments">// luckiness,</span>
     u.fortune ++;
     <span class="comments">// happiness,</span>
